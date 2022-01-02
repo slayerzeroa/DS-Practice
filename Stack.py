@@ -90,3 +90,9 @@ print('계산결과:', result1, end='\n\n')
 print('중위표기:', infix2)
 print('후위표기:', postfix2)
 print('계산결과:', result2)
+
+infix3 = ['(','9','/','3','+','5',')','/','2','-','(','3','*','2',')']
+postfix3 = Infix2Postfix(infix3)
+print(postfix3)
+result3 = evalPostfix(postfix3)
+print(result3)
